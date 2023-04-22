@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/new.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            width: 100%;
+            height: 500vh;
+            background-image: url(../assets/images/bg.jpg);
+            background-size: 100%;
+            
+        }
+        #header{
+            width: 100%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 5px 15px black;
+        }
+        #headervid{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100vw;
+            filter: brightness(35%);
+           overflow: hidden;
+        }
+        h1{
+            position: absolute;
+            z-index: 3;
+            font-size: 80px;
+            color: aliceblue;
+        }
+        #robotics,#xr,#vr,#threejs, #ai{
+            width: 80%;
+            height: 80vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            filter: none;
+            border: groove gray 10px;
+            background-image: url(../assets/videos/cyber-gadaadc5e8_1920.jpg);
+            background-size: 80vw 80vh;
+            margin-top: 150px;
+            box-shadow: 0px 0px 25px white;
+            overflow: hidden;
+        }
+        
+        
+    </style>
+</head>
+<body>
+  <div id="header">
+
+    <h1>World Of Technology</h1>
+    <video id="headervid" src="../assets/videos/universe-13100.mp4"  autoplay muted loop></video>
+  </div> 
+  <div id="navbar">
+<ul id="mainlist">
+
+<li class="li">HOME</li>
+<li class="li">INFO</li>
+<li class="li" id="hov">TECHNOLOGIES
+
+    <ul id="sublist">
+<li class="sli">ROBOTICS</li>
+<li class="sli">AI</li>
+<li class="sli">XR</li>
+<li class="sli">VR</li>
+<li class="sli">THREE JS</li>
+
+    </ul>
+</li>
+<li class="li">Logout</li>
+
+</ul>
+
+  </div> 
+  <center>
+  <div id="robotics">Robotics is a branch of engineering that involves the conception, design, manufacture and operation of robots. The objective of the robotics field is to create intelligent machines that can assist humans in a variety of ways.
+
+    Robotics can take on a number of forms. A robot may resemble a human, or it may be in the form of a robotic application, such as robotic process automation (RPA), which simulates how humans engage with software to perform repetitive, rules-based tasks.
+    
+    While the field of robotics and exploration of the potential uses and functionality of robots have grown substantially in the 20th century, the idea is certainly not a new one.</div>
+    <div id="ai">Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence. While AI is an interdisciplinary science with multiple approaches, advancements in machine learning and deep learning, in particular, are creating a paradigm shift in virtually every sector of the tech industry.</div>
+    <div id="xr">XR is new, exciting tech, and everyone is talking about it. But what does XR mean and when can you start using this technology? We’ll take a look at how XR is different from AR and VR, and how it will integrate with new devices and the gear you own already.
+        XR, cross reality, or extended reality, is a catchall term for several different but related technologies. It rolls together similar acronyms like VR (virtual reality), AR (augmented reality), and MR (mixed reality). Once you know that tidbit, understanding XR gets a whole lot simpler.</div>
+        <div id="vr">Virtual reality (VR) is a simulated experience that employs pose tracking and 3D near-eye displays to give the user an immersive feel of a virtual world. Applications of virtual reality include entertainment (particularly video games), education (such as medical or military training) and business (such as virtual meetings). Other distinct types of VR-style technology include augmented reality and mixed reality, sometimes referred to as extended reality or XR, although definitions are currently changing due to the nascence of the industry.</div>
+        <div id="threejs">Three.js is an open-source JavaScript library that you can use to create dynamic and interactive websites with 2D and 3D graphics. With Three.js, you can render 3D graphics directly inside the browser. You can do fantastic stuff using Three.js by adding animations or logic and even turning your website into a game. Ricardo Cabello (or mrdoob in GitHub) released Three.js in 2010 and maintained a great open-source community.</div></center>
+</body>
+</html>
